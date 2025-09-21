@@ -149,10 +149,4 @@ public class ArrayList<T> implements List<T> {
         size = newSize;
         elementData[size] = null;
     }
-
-    @Override
-    public String toString() {
-        return Arrays.toString(Arrays.copyOf(elementData, size));
-
-    }
 }
